@@ -17,7 +17,7 @@ parkinsons_model=joblib.load(open('parkinsons_model.pkl','rb'))
 
 
 with st.sidebar:
-    selected=option_menu('Multiple Disease Detection System',['Welcome',
+    selected=option_menu('Multi-Disease Detection Application',['Welcome',
         'Cancer','Diabetes','Heart','Kidney','Liver','Parkinsons'],
         icons=['book','bookmark-check','bi-app-indicator','heart','file-bar-graph','activity','bi-person'],
         default_index=0)
